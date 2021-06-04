@@ -1,0 +1,46 @@
+.calculator-container {
+    // background-color: black;
+    .banner {
+        background-color: blue;
+        color: #ffffff;
+        font-size: 32px;
+        font-weight: 900;
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+    .form-group {
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        .sub-fields {
+            width: 300px;
+        }
+        .result-btn {
+            margin: 30px;
+        }
+    }
+    .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        div {
+            padding-top: 20px;
+        }
+        .fifth-day {
+            font-weight: 900;
+            font-size: 20px;
+            padding: 10px;
+            background-color: green;
+        }
+        .final-result {
+            font-weight: 900;
+            font-size: 32px;
+            margin-top: 30px;
+            padding: 10px;
+            background-color: greenyellow;
+        }
+    }
+}
